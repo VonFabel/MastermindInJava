@@ -373,15 +373,15 @@ public class FinalAssignment {
 				
 			// Show what ending happened
 			if(code.equals(guess)) {
-				System.out.println("\r\n" +
-						"**************************************" + "\r\n" +
-						"* You won, you are a real mastermind *" + "\r\n" +
-						"**************************************");
+				System.out.println( "\r\n" +
+						    "**************************************" + "\r\n" +
+						    "* You won, you are a real mastermind *" + "\r\n" +
+						    "**************************************");
 			}
 				
 			else {
-				System.out.println("___________________________" + "\r\n" +
-						"The rounds are up, too bad.");
+				System.out.println( "___________________________" + "\r\n" +
+						    "The rounds are up, too bad.");
 			}
 		}
 			
