@@ -93,22 +93,22 @@ public class FinalAssignment {
 	// Welcome Player //3.1/
 	private static void showWelcome(Integer codeLength) {
 		String welcomeInstructions = 	"Welcome to Mastermind" + "\r\n" +
-					 					"\r\n" +
-										"Create combinations with colors and crack the code." + "\r\n" +
-										"The following colors are included" + "\r\n" +
-										"Red, Green, Blue, Purple, Orange and Yellow" + "\r\n" +
-										"\r\n" +
-										"To create a combination, fill in the first letter of each color you want to use." + "\r\n" +
-										"For example: if your guess is \"Yellow, Blue, Blue, Red\"" + "\r\n" +
-										"you would fil in \"YBBR\"." + "\r\n" +
-										"\r\n" +
-										"Depending on your guess, you may recieve small hints." + "\r\n" +
-										"These hints consists of blacks and whites." + "\r\n" +
-										"A black means you got a color correct and is in the right position." + "\r\n" +
-										"A white meand you got a color correct but is not in the right position." + "\r\n" +
-										"\r\n" +
-										"The length of the code is " + codeLength + "\r\n" +
-										"Now make your guess.";
+	"\r\n" +
+	"Create combinations with colors and crack the code." + "\r\n" +
+	"The following colors are included" + "\r\n" +
+	"Red, Green, Blue, Purple, Orange and Yellow" + "\r\n" +
+	"\r\n" +
+	"To create a combination, fill in the first letter of each color you want to use." + "\r\n" +
+	"For example: if your guess is \"Yellow, Blue, Blue, Red\"" + "\r\n" +
+	"you would fil in \"YBBR\"." + "\r\n" +
+	"\r\n" +
+	"Depending on your guess, you may recieve small hints." + "\r\n" +
+	"These hints consists of blacks and whites." + "\r\n" +
+	"A black means you got a color correct and is in the right position." + "\r\n" +
+	"A white meand you got a color correct but is not in the right position." + "\r\n" +
+	"\r\n" +
+	"The length of the code is " + codeLength + "\r\n" +
+	"Now make your guess.";
 			
 		System.out.println(welcomeInstructions);
 	}
@@ -374,14 +374,14 @@ public class FinalAssignment {
 			// Show what ending happened
 			if(code.equals(guess)) {
 				System.out.println(	"\r\n"
-									+ "**************************************" + "\r\n"
-									+ "* You won, you are a real mastermind *" + "\r\n"
-									+ "**************************************");
+						+ "**************************************" + "\r\n"
+						+ "* You won, you are a real mastermind *" + "\r\n"
+						+ "**************************************");
 			}
 				
 			else {
-				System.out.println(   "___________________________" + "\r\n"
-									+ "The rounds are up, too bad.");
+				System.out.println("___________________________" + "\r\n"
+						+ "The rounds are up, too bad.");
 			}
 		}
 			
