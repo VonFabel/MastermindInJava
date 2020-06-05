@@ -24,10 +24,10 @@ public class FinalAssignment {
 		String layoutRight = "| ";
 			
 			
-		// Generate Random Code //2.1
+		// Generate Random Code //2.1/
 		code = getCode(codeLength, colors);
 			
-		// Welcome Player //3.1
+		// Welcome Player //3.1/
 		showWelcome(codeLength);
 			
 		//Play game while gameover is false
@@ -36,14 +36,14 @@ public class FinalAssignment {
 			// Reset Valid Boolean
 			valid = false;
 				
-			// Ask Player's Guess //3.2
+			// Ask Player's Guess //3.2/
 			guess = getGuess(in);
 				
-			// Check Guess Validation //4.1
+			// Check Guess Validation //4.1/
 			valid = checkValid(valid, codeLength, guess, colors);
 				
 			if(!valid) {
-				// If Invalid //4.2
+				// If Invalid //4.2/
 				showInvalid(valid);
 			}
 				
@@ -58,7 +58,7 @@ public class FinalAssignment {
 				// Give Feedback //5.2/
 				feedback = feedback + "\r\n" + getFeedback(feedback, code, guess, colors, codeLength, layoutLeft, layoutRight);
 					
-				// Show Layout //6.1
+				// Show Layout //6.1/
 				showLayout(gameOver, codeLength, rounds, code, guess, feedback, layoutLeft, layoutRight);
 			}
 		}
